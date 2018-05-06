@@ -1,0 +1,40 @@
+<Project>
+  <Import Project="version.props" />
+  
+  <PropertyGroup>
+    <Version>$(MajorVersion).$(MinorVersion).$(ReleaseVersion)</Version>
+    <PackageReleaseNotes>This package is distributed as .NET Standard 2.0, .NET Core 2.0, .NET 4.0, 4.5, 4.6, 4.7 package.</PackageReleaseNotes>
+
+    <Authors>Enterprise Library Open Source Project</Authors>
+    <Copyright>Copyright © Microsoft 2008</Copyright>
+    <PackageIconUrl>https://nuget.org/Media/Default/Packages/Unity/2.0/entlib_new_icon_100x100.png</PackageIconUrl>
+    <PackageLicenseUrl>http://opensource.org/licenses/Apache-2.0</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/EnterpriseLibrary/policy-injection-application-block</PackageProjectUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+
+    <RepositoryUrl>https://github.com/EnterpriseLibrary/policy-injection-application-block</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <SystemConfigurationConfigurationManagerVersion>4.4.*</SystemConfigurationConfigurationManagerVersion>
+    <SystemComponentModelAnnotationsVersion>4.4.*</SystemComponentModelAnnotationsVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CommonServiceLocatorVersion>2.0.*</CommonServiceLocatorVersion>
+    <UnityContainerVersion>5.8.*</UnityContainerVersion>
+    <UnityConfigurationVersion>5.2.*</UnityConfigurationVersion>
+    <UnityInterceptionVersion>5.5.*</UnityInterceptionVersion>
+    <UnityInterceptionConfigurationVersion>5.1.*</UnityInterceptionConfigurationVersion>
+    
+    <!--In order to debug the EntLib dependencies open 'PolicyInjection (With Dependencies).sln' and change 'EntLibDependencyType' value to Project -->
+    <EntLibDependencyType>Package</EntLibDependencyType>
+    <EntLibCommonVersion>6.1.*</EntLibCommonVersion>
+    <EntLibLoggingVersion>6.1.*</EntLibLoggingVersion>
+    <EntLibExceptionHandlingVersion>6.1.*</EntLibExceptionHandlingVersion>
+    <EntLibValidationVersion>6.1.*</EntLibValidationVersion>
+  
+</PropertyGroup>
+
+</Project>

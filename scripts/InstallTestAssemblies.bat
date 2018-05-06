@@ -1,0 +1,2 @@
+%WINDIR%\Microsoft.NET\Framework\v4.0.30319\installutil /LogToConsole=true "%~dp0\..\source\Tests\PolicyInjection\bin\Release\net47\EnterpriseLibrary.PolicyInjection.Tests.dll"
+%WINDIR%\Microsoft.NET\Framework\v4.0.30319\installutil /LogToConsole=true "%~dp0\..\source\Tests\CallHandlers\bin\Release\net47\EnterpriseLibrary.PolicyInjection.CallHandlers.Tests.dll"
